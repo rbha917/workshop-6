@@ -14,7 +14,7 @@ function newLine(){
 	for (x = 0; x < words.length; x++){
     let word = words[x]    
 		if(RiTa.isVerb(word)){
-			response += RiTa.randomWord({ pos: "nn"}) + ' '; //if a noun is detected then it will be replaced by a random word//
+			response += RiTa.randomWord({ pos: "vb"}) + ' '; //if a noun is detected then it will be replaced by a random word//
     } else if(RiTa.isNoun(word)) {
       let rhymes = RiTa.rhymesSync(word); // Get rhyming words for the noun
       if (rhymes.length > 0) {
