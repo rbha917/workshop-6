@@ -1,6 +1,6 @@
 # workshop-6
 
-### Link to sketch:
+### Link to sketch: https://rbha917.github.io/workshop-6/ 
 
 ## Text & Language
 ### Using your own fonts
