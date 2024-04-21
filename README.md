@@ -55,7 +55,7 @@ function newLine(){
 	response = ''; //clears input, define response variable at top//
 	for (x = 0; x < words.length; x++){
 		if(RiTa.isNoun(words[x])){
-			response += RiTa.randomWord({ pos: "nn"}); //if a noun is detected then it will be replaced by a random word//
+			response += RiTa.randomWord({ pos: "nn"}); //if a noun is detected then it will be replaced by a random noun//
 		} else {
 			response += words[x];
 		} //otherwise the line will print twice//
@@ -63,3 +63,5 @@ function newLine(){
 	}
 	poem.push(response); 
 }
+### Chatgpt assistance to change random noun to random verb
+RiTa.randomWord({ pos: 'vb' }); //will replace with a random verb//
